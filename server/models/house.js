@@ -5,7 +5,7 @@ const Schema = Mongoose.Schema;
 
 let schemaHouse = new Schema({
   title : String,
-  price : String,
+  price : Number,
   description: String,
   owner : String,
   address: String,
